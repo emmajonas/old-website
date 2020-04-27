@@ -1,0 +1,14 @@
+body {
+    background-color:  antiquewhite;
+}
+
+#name {
+    font-family: bulgatti;
+    font-size: 50px;
+    text-align: center;
+}
+
+@font-face {
+    font-family: bulgatti;
+    src: url("bulgatti-font/Bulgatti-xgMV.ttf");
+}
