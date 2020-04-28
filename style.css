@@ -3,6 +3,13 @@
     text-align: center;
 }
 
+#firstpage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
 #name {
     font-family: bulgatti;
     font-size: 50px;
@@ -25,7 +32,7 @@
 }
 
 #name a:hover, #menu a:hover {
-    color: crimson;
+    color: darksalmon;
     transition: 0.5s ease;
 }
 
@@ -38,22 +45,34 @@
 }
 
 #menuButton:hover {
-    color: crimson;
+    color: darksalmon;
     transition: 0.5s ease;
-    border-color: crimson;
+    border-color: darksalmon;
 }
 
 #menu {
     background-color: antiquewhite;
     border: none;
+    font-family: amiko;
+    padding: 5px;
 }
 
 #menu a {
-    margin-bottom: 15px;
     font-size: 20px;
+    padding: 5px;
 }
 
 @font-face {
     font-family: bulgatti;
     src: url("bulgatti-font/Bulgatti-xgMV.ttf");
+}
+
+@font-face {
+    font-family: lora;
+    src: url("lora/Lora-Regular.ttf");
+}
+
+@font-face {
+    font-family: amiko;
+    src: url("amiko/Amiko-Regular.ttf");
 }
