@@ -1,11 +1,56 @@
-body {
+#mine {
     background-color:  antiquewhite;
+    text-align: center;
 }
 
 #name {
     font-family: bulgatti;
     font-size: 50px;
     text-align: center;
+    margin-top: 50px;
+}
+
+#name a, #menu a {
+    color: black;
+    transition: 0.5s ease;
+    border: none;
+}
+
+#name a:link, #menu a:link {
+    text-decoration: none;
+}
+
+#name a:visited, #menu a:visited {
+    color: black;
+}
+
+#name a:hover, #menu a:hover {
+    color: crimson;
+    transition: 0.5s ease;
+}
+
+#menuButton {
+    margin-top: 30px;
+    right: 50%;
+    left: 50%;
+    background-color: antiquewhite;
+    border: 1px solid black;
+}
+
+#menuButton:hover {
+    color: crimson;
+    transition: 0.5s ease;
+    border-color: crimson;
+}
+
+#menu {
+    background-color: antiquewhite;
+    border: none;
+    display: inline-block;
+}
+
+#menu a {
+    margin: 20px;
 }
 
 @font-face {
