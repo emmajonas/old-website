@@ -86,7 +86,7 @@ html {
 }
 
 #aboutme {
-    background: url("abstract.jpg") no-repeat center;
+    background: url("images/abstract.jpg") no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     overflow: hidden;
