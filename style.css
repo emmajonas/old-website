@@ -145,15 +145,15 @@ html {
 
 @font-face {
     font-family: bulgatti;
-    src: url("bulgatti-font/Bulgatti-xgMV.ttf");
+    src: url("fonts/bulgatti-font/Bulgatti-xgMV.ttf");
 }
 
 @font-face {
     font-family: lora;
-    src: url("lora/Lora-Regular.ttf");
+    src: url("fonts/lora/Lora-Regular.ttf");
 }
 
 @font-face {
     font-family: amiko;
-    src: url("amiko/Amiko-Regular.ttf");
+    src: url("fonts/amiko/Amiko-Regular.ttf");
 }
