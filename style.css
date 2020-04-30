@@ -90,13 +90,13 @@ html {
     overflow: hidden;
     
     display: grid;
-    align-items: center;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-gap: 1rem;
+    padding: 50px 0px;
 }
 
 #page2 {
-    padding: 100px 25px;
+    padding: 0px 25px;
 }
 
 #page2 h1, #page2 p {
@@ -108,16 +108,17 @@ html {
 
 #page2 h1 {
     display: inline-block;
+    font-size: 50px;
 }
 
 #page2 p {
     padding: 10px;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .pics {
     display: grid;
-    margin: 100px 50px;
+    margin: 50px 25px;
 }
 
 .pics img {
