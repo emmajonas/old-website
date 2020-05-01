@@ -102,7 +102,7 @@ html {
     box-shadow: 5px 10px 15px;
     padding: 2px 10px;
     margin: 10px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 #text2 h1 {
@@ -161,6 +161,10 @@ html {
 
 .page3 p {
     text-align: justify;
+}
+
+.page3 img {
+    box-shadow: 1px 1px 15px; margin-top: 10px; margin-bottom: 10px;
 }
 
 .page3:hover {
