@@ -8,25 +8,6 @@ html {
     font-family: amiko;
 }
 
-#mine a {
-    color: #111;
-    transition: 0.5s ease;
-    border: none;
-}
-
-#mine a:hover {
-    color: darksalmon;
-    transition: 0.5s ease;
-}
-
-#mine a:link {
-    text-decoration: none;
-}
-
-#mine a:visited {
-    color: #111;
-}
-
 #firstpage {
     transform: translate3d(0px, 0px, 0px)
     scale3d(1, 1, 1)
@@ -63,10 +44,6 @@ html {
 
 #name a:link, #menu a:link {
     text-decoration: none;
-}
-
-#name a:visited, #menu a:visited {
-    color: #111;
 }
 
 #name a:hover, #menu a:hover {
@@ -136,6 +113,7 @@ html {
 #text2 p {
     padding: 10px;
     font-size: 17px;
+    text-align: justify;
 }
 
 .pics {
@@ -163,7 +141,7 @@ html {
 
 #projects h1 {
     font-size: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
 }
 
 .content {
@@ -173,15 +151,39 @@ html {
 }
 
 .page3 {
+/*
     border: 2px solid #111;
-    padding: 20px 0px 10px 0px;
     border-radius: 20px;
+*/
+    padding: 20px 20px 10px 20px;
     transition: 0.5s ease;
+}
+
+.page3 p {
+    text-align: justify;
 }
 
 .page3:hover {
     border-color: darksalmon;
     transition: 0.5s ease;
+}
+
+.btn.btn-primary {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-top: 7px;
+    display: inline-block;
+    border: none;
+    background-color: darksalmon;
+    color: #111;
+}
+
+.btn.btn-primary:focus, .btn.btn-primary:active,
+    .btn.btn-primary:hover {
+    outline: 0;
+    border: none;
+    background-color: darksalmon;
+    color: antiquewhite;
 }
 
 @media (min-width: 576px) { ... }
