@@ -164,7 +164,9 @@ html {
 }
 
 .page3 img {
-    box-shadow: 1px 1px 15px; margin-top: 10px; margin-bottom: 10px;
+    box-shadow: 1px 1px 15px;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 .page3:hover {
