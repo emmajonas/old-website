@@ -3,7 +3,7 @@ html {
 }
 
 #mine {
-    background-color:  antiquewhite;
+    background-color: floralwhite;
     text-align: center;
     font-family: amiko;
 }
@@ -54,7 +54,7 @@ html {
 #menuButton {
     right: 50%;
     left: 50%;
-    background-color: antiquewhite;
+    background-color: floralwhite;
     font-size: 30px;
     border: none;
     padding: 6px 10px 0px 10px;
@@ -68,7 +68,7 @@ html {
 }
 
 #menu {
-    background-color: antiquewhite;
+    background-color: floralwhite;
     border: none;
     padding: 5px;
     display: inline-block;
@@ -98,7 +98,7 @@ html {
 }
 
 #text2 h1, #text2 p {
-    background-color: antiquewhite;
+    background-color: floralwhite;
     box-shadow: 5px 10px 15px;
     padding: 2px 10px;
     margin: 10px;
@@ -189,7 +189,44 @@ html {
     outline: 0;
     border: none;
     background-color: darksalmon;
-    color: antiquewhite;
+    color: floralwhite;
+}
+
+#artwork {
+    background: url("images/wall.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+#page4 {
+    padding: 50px 0px;
+}
+
+#page4 h1 {
+    font-size: 50px;
+    margin-bottom: 35px;
+}
+
+.art {
+    padding: 20px 20px 10px 20px;
+    transition: 0.5s ease;
+}
+
+.art img {
+    box-shadow: 1px 1px 15px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.art h6, #page4 h1 {
+    background-color: floralwhite;
+    box-shadow: 5px 10px 15px;
+    padding: 2px 10px;
+    margin: 10px;
+    border-radius: 10px;
+    display: inline-block;
 }
 
 @media (min-width: 576px) { ... }
@@ -203,11 +240,6 @@ html {
 @font-face {
     font-family: bulgatti;
     src: url("fonts/bulgatti-font/Bulgatti-xgMV.ttf");
-}
-
-@font-face {
-    font-family: lora;
-    src: url("fonts/lora/Lora-Regular.ttf");
 }
 
 @font-face {
