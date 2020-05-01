@@ -99,7 +99,7 @@ html {
 
 #text2 h1, #text2 p {
     background-color: floralwhite;
-    box-shadow: 5px 10px 15px;
+    box-shadow: 1px 1px 15px;
     padding: 2px 10px;
     margin: 10px;
     border-radius: 10px;
@@ -123,7 +123,7 @@ html {
 
 .pics img {
     border-radius: 50%;
-    box-shadow: 5px 10px 20px;
+    box-shadow: 1px 1px 15px;
 }
 
 #picofme {
@@ -222,20 +222,50 @@ html {
 
 .art h6, #page4 h1 {
     background-color: floralwhite;
-    box-shadow: 5px 10px 15px;
+    box-shadow: 1px 1px 15px;
     padding: 2px 10px;
-    margin: 10px;
+    margin: 20px;
     border-radius: 10px;
     display: inline-block;
 }
 
-@media (min-width: 576px) { ... }
+#contact h1 {
+    margin: 50px 0px 30px 0px;
+    font-size: 75px;
+}
 
-@media (min-width: 768px) { ... }
+#contact {
+    padding: 10% 0%;
+    background-image: url(images/elephant.png), url(images/owl.png);
+    background-position: left top, right bottom;
+    background-size: 30%, 20%;
+    background-repeat: no-repeat;
+}
 
-@media (min-width: 992px) { ... }
+.links h5 {
+    display: inline-block;
+    margin: 20px;
+    font-size: 25px;
+}
 
-@media (min-width: 1200px) { ... }
+.links a {
+    color: #111;
+    transition: 0.5s ease;
+    border: none;
+}
+
+.links a:link {
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: darksalmon;
+    transition: 0.5s ease;
+}
+
+footer {
+    margin-top: 20px;
+}
 
 @font-face {
     font-family: bulgatti;
