@@ -273,7 +273,7 @@ html {
   color: #111; /* Text color */
     background-color: floralwhite;
   cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 7px 10px 1px 10px; /* Some padding */
+  padding: 7px 10px 4px 10px; /* Some padding */
   border-radius: 10px; /* Rounded corners */
   font-size: 25px; /* Increase font size */
     transition: 1s ease;
