@@ -4,6 +4,7 @@ html {
 
 #mine {
     background-color: floralwhite;
+    background-size: cover;
     text-align: center;
     font-family: amiko;
 }
@@ -15,8 +16,7 @@ html {
     background-repeat: no-repeat;
     position: relative;
     z-index: 90;
-    min-width: 100%;
-    min-height: 100%;
+    height: 100vh;
     padding-right: 10vw;
     padding-left: 10vw;
     padding-top: 27vh;
