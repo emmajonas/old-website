@@ -134,13 +134,21 @@ html {
     width: 100%;
 }
 
-#projects {
+#projects, #career {
     padding: 50px 0px;
 }
 
-#projects h1 {
+#projects h1, #career h1 {
     font-size: 50px;
-    margin-bottom: 35px;
+    margin-bottom: 50px;
+}
+
+#courses h2, #education h2, #experience h2 {
+    margin-bottom: 30px;
+}
+
+#career .content {
+    margin-bottom: 30px;
 }
 
 .content {
