@@ -35,17 +35,17 @@ html {
     margin-top: 50px;
 }
 
-#name a, #menu a {
+#name a, #menu a, #text2 a {
     color: #111;
     transition: 0.5s ease;
     border: none;
 }
 
-#name a:link, #menu a:link {
+#name a:link, #menu a:link, #text2 a:link {
     text-decoration: none;
 }
 
-#name a:hover, #menu a:hover {
+#name a:hover, #menu a:hover, #text2 a:hover {
     color: darksalmon;
     transition: 0.5s ease;
 }
