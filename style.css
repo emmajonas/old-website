@@ -147,12 +147,12 @@ html {
     margin-bottom: 30px;
 }
 
-.jobs, .school {
+.jobs, .school, .goalgroups {
     padding: 20px 20px 10px 20px;
     text-align: justify;
 }
 
-.school h4, .school h5, .school h6, .jobs h4, .jobs h5, .jobs h6 {
+.school h4, .school h5, .school h6, .jobs h4, .jobs h5, .jobs h6, .goalgroups h4 {
     text-align: center
 }
 
