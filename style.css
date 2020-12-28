@@ -134,26 +134,13 @@ html {
     width: 100%;
 }
 
-#projects, #career {
+#projects {
     padding: 50px 0px;
 }
 
-#projects h1, #career h1 {
+#projects h1 {
     font-size: 50px;
     margin-bottom: 50px;
-}
-
-#career .content {
-    margin-bottom: 30px;
-}
-
-.jobs, .school {
-    padding: 20px 20px 10px 20px;
-    text-align: justify;
-}
-
-.school h4, .school h5, .school h6, .jobs h4, .jobs h5, .jobs h6 {
-    text-align: center
 }
 
 .content {
